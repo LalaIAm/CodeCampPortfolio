@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'strongloves';
+    src: url('/Assets/fonts/Strongloves.otf') format("opentype");
+    src: url('/Assets/fonts/Strongloves.ttf') format('truetype');
+    src: url('/Assets/fonts/Strongloves.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Alt Catwalk';
+    src: url(/Assets/fonts/Alt\ Catwalk\ regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #737b9e;
+    height: 62px;
+
+}
+
+header h3 {
+    font-family: 'Strongloves', cursive;
+    font-size: 36px;
+}
