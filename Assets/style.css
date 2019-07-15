@@ -15,7 +15,7 @@ header {
     height: 72px;
     top: 0;
     margin: 0;
-    display: inline-flex;
+    display: inline-flexbox;
     
 
 }
@@ -28,5 +28,27 @@ header h3 {
     margin-left: 24px;
     align-self: center;
     justify-self: flex-start;
-    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+
+}
+
+header nav {
+    align-self: flex-end;
+    justify-self: flex-end;
+    float: right;
+    
+}
+
+nav ul {
+    justify-self: flex-end;
+    align-self: flex-end;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+
 }
