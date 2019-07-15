@@ -66,6 +66,45 @@ nav a:hover {
     color: #9294a7;
 }
 /*Welcome*/
-#welcome {
-    background-image:
+.welcome {
+    background-image: url('./pictures/01.JPG');
+    position: relative;
+    top: 40px;
+    background-size: cover;
+    background-repeat: no;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-family:  'ripon script';
+    font-size: 104px;
+    color: #9294a7;
+    opacity: 0.7;
+    transition: color 1s ease-in 200ms;
+    margin-bottom: 24px;
+}
+
+.welcome h1:hover {
+    color: #a70652;
+}
+
+.welcome h2 {
+    margin-top: 30px;
+    padding-top: 30px;
+    font-family: 'ripon script';
+    position: relative;
+    top: 100;
+    color:  #1f141e;
+    font-size: 32px;
+}
+
+.welcome h3 {
+    font-family: 'ripon';
+    color: #1f141e
+    margin-top: 0px;
 }
