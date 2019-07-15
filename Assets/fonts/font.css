@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'strongloves';
+    src: url('./Strongloves.otf') format('opentype'),
+         url('./Strongloves.ttf') format('truetype'),
+         url('./Strongloves.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header h3 {
+
+}

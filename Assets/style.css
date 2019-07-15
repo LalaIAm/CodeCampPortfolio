@@ -3,6 +3,8 @@
     src: url('/Assets/fonts/Strongloves.otf') format("opentype");
     src: url('/Assets/fonts/Strongloves.ttf') format('truetype');
     src: url('/Assets/fonts/Strongloves.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -29,6 +31,6 @@ header {
 }
 
 header h3 {
-    font-family: 'Strongloves', cursive;
+    font-family: 'strongloves';
     font-size: 36px;
 }
