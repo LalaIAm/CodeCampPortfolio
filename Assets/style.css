@@ -15,40 +15,57 @@ header {
     height: 72px;
     top: 0;
     margin: 0;
-    display: inline-flexbox;
+    display: block;
     
 
 }
 
 header h3 {
-    font-family: 'strongloves';
+    font-family: 'Ripon Script';
     font-size: 36px;
     color: #a70652;
     text-align: left;
     margin-left: 24px;
-    align-self: center;
-    justify-self: flex-start;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
+    display: inline;
+    position: relative;
+    top: 0;
+    padding: 50%, 0;
+    
 
 }
 
 header nav {
-    align-self: flex-end;
-    justify-self: flex-end;
+
     float: right;
     
 }
 
 nav ul {
-    justify-self: flex-end;
-    align-self: flex-end;
+
     float: right;
 }
 
 nav li {
     display: inline-block;
+    font-family: 'Ripon';
+    margin: auto 20px;
+    color: #bb4056;
+    padding: auto 0;
+    font-size: 28px;
+    
 
+}
+
+
+nav a {
+    color: #bb4056;
+    transition: color 700ms ease-in 200ms;
+}
+
+nav a:hover {
+    color: #9294a7;
+}
+/*Welcome*/
+#welcome {
+    background-image:
 }

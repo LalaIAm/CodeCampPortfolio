@@ -7,6 +7,35 @@
     font-style: normal;
 }
 
-header h3 {
+@font-face {
+    font-family: 'Alt Catwalk';
+    src: url('./Alt\ Catwalk\ regular.ttf') format("truetype");
+    font-weight: regular;
+    font-style: normal;
+    src: url('./Alt\ Catwalk\ light.ttf') format('truetype');
+    font-weight: light;
+    fontstyle: normal;
+    src: url('./Alt\ Catwalk\ medium.ttf') format('truetype');
+    font-weight: medium;
+    fontstyle: normal;
+    src: url('./Alt\ Catwalk\ thin.ttf') format('truetype');
+    font-weight: thin;
+    fontstyle: normal;
 
+}
+
+@font-face {
+    font-family: 'Ripon';
+    src: url('./Ripon.ttf') format('truetype'),
+    url(./Ripon.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ripon Script';
+    src: url('./Ripon\ Script.ttf') format("truetype"),
+    url('./Ripon\ Script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
