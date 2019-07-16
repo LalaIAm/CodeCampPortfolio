@@ -66,7 +66,7 @@ nav a:hover {
     color: #9294a7;
 }
 /*Welcome*/
-.welcome {
+.welcome-section {
     background-image: url('./pictures/01.JPG');
     position: relative;
     top: 40px;
@@ -80,7 +80,7 @@ nav a:hover {
     text-align: center;
 }
 
-.welcome h1 {
+.welcome-section h1 {
     font-family:  'ripon script';
     font-size: 104px;
     color: #9294a7;
@@ -89,11 +89,11 @@ nav a:hover {
     margin-bottom: 24px;
 }
 
-.welcome h1:hover {
+.welcome-section h1:hover {
     color: #a70652;
 }
 
-.welcome h2 {
+.welcome-section h2 {
     margin-top: 30px;
     padding-top: 30px;
     font-family: 'ripon script';
@@ -191,4 +191,27 @@ nav a:hover {
     font-family: 'ripon script';
     font-size: 28px;
     color: #a70652;
+}
+
+.spacer {
+    width: 100%;
+    background-color: #1f141e;
+    position: relative;
+    top: 0px;
+    height: 200px;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+
+#profile {
+    width: 100%;
+    background-image: url('./pictures/08.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
 }
